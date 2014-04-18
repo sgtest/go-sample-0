@@ -1,6 +1,6 @@
 package subpkg
 
-import "mypkg"
+import "github.com/sgtest/go-sample-0/mypkg"
 
 type Subqux mypkg.Qux
 
