@@ -1,54 +1,54 @@
 {
   "Symbols": [
     {
-      "repo": "github.com/sgtest/go-sample-0",
+      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg/subpkg",
-      "path": "",
-      "specificPath": "subpkg",
-      "kind": "package",
-      "specificKind": "package",
-      "name": "subpkg",
-      "callable": false,
-      "file": "mypkg/subpkg",
+      "Path": "",
+      "SpecificPath": "subpkg",
+      "Kind": "package",
+      "SpecificKind": "package",
+      "Name": "subpkg",
+      "Callable": false,
+      "File": "mypkg/subpkg",
       "CommitID": "",
-      "defStart": 0,
-      "defEnd": 0,
-      "exported": true
+      "DefStart": 0,
+      "DefEnd": 0,
+      "Exported": true
     },
     {
-      "repo": "github.com/sgtest/go-sample-0",
+      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg/subpkg",
-      "path": "Subqux",
-      "specificPath": "Subqux",
-      "kind": "type",
-      "specificKind": "type",
-      "name": "Subqux",
-      "callable": false,
-      "file": "mypkg/subpkg/subfoo.go",
+      "Path": "Subqux",
+      "SpecificPath": "Subqux",
+      "Kind": "type",
+      "SpecificKind": "type",
+      "Name": "Subqux",
+      "Callable": false,
+      "File": "mypkg/subpkg/subfoo.go",
       "CommitID": "",
-      "defStart": 67,
-      "defEnd": 83,
-      "exported": true,
-      "typeExpr": "github.com/sgtest/go-sample-0/mypkg/subpkg.Subqux"
+      "DefStart": 67,
+      "DefEnd": 83,
+      "Exported": true,
+      "TypeExpr": "github.com/sgtest/go-sample-0/mypkg/subpkg.Subqux"
     },
     {
-      "repo": "github.com/sgtest/go-sample-0",
+      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg/subpkg",
-      "path": "subfunc",
-      "specificPath": "subfunc",
-      "kind": "func",
-      "specificKind": "func",
-      "name": "subfunc",
-      "callable": true,
-      "file": "mypkg/subpkg/subfoo.go",
+      "Path": "subfunc",
+      "SpecificPath": "subfunc",
+      "Kind": "func",
+      "SpecificKind": "func",
+      "Name": "subfunc",
+      "Callable": true,
+      "File": "mypkg/subpkg/subfoo.go",
       "CommitID": "",
-      "defStart": 85,
-      "defEnd": 116,
-      "exported": false,
-      "typeExpr": "func()"
+      "DefStart": 85,
+      "DefEnd": 116,
+      "Exported": false,
+      "TypeExpr": "func()"
     }
   ],
   "Refs": [
@@ -58,12 +58,10 @@
       "SymbolUnit": "mypkg",
       "SymbolPath": "",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 74,
-      "end": 79
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 74,
+      "End": 79
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -71,12 +69,10 @@
       "SymbolUnit": "mypkg",
       "SymbolPath": "",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 103,
-      "end": 108
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 103,
+      "End": 108
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -84,12 +80,10 @@
       "SymbolUnit": "mypkg",
       "SymbolPath": "",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 23,
-      "end": 60
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 23,
+      "End": 60
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -97,12 +91,10 @@
       "SymbolUnit": "mypkg/subpkg",
       "SymbolPath": "Subqux",
       "Def": true,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 67,
-      "end": 73
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 67,
+      "End": 73
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -110,12 +102,10 @@
       "SymbolUnit": "mypkg/subpkg",
       "SymbolPath": "subfunc",
       "Def": true,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 90,
-      "end": 97
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 90,
+      "End": 97
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -123,12 +113,10 @@
       "SymbolUnit": "mypkg",
       "SymbolPath": "Qux",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 80,
-      "end": 83
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 80,
+      "End": 83
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -136,12 +124,10 @@
       "SymbolUnit": "mypkg",
       "SymbolPath": "Foo",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 109,
-      "end": 112
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 109,
+      "End": 112
     },
     {
       "SymbolRepo": "github.com/sgtest/go-sample-0",
@@ -149,12 +135,10 @@
       "SymbolUnit": "mypkg/subpkg",
       "SymbolPath": "",
       "Def": false,
-      "repo": "",
-      "UnitType": "",
-      "Unit": "",
-      "file": "mypkg/subpkg/subfoo.go",
-      "start": 8,
-      "end": 14
+      "Repo": "",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 8,
+      "End": 14
     }
   ]
 }
