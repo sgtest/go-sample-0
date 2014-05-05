@@ -1,7 +1,6 @@
 {
   "Symbols": [
     {
-      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg",
       "Path": "",
@@ -16,39 +15,6 @@
       "Exported": true
     },
     {
-      "Repo": "github.com/sgtest/go-sample-0",
-      "UnitType": "GoPackage",
-      "Unit": "mypkg",
-      "Path": "Qux",
-      "SpecificPath": "Qux",
-      "Kind": "type",
-      "SpecificKind": "type",
-      "Name": "Qux",
-      "Callable": false,
-      "File": "mypkg/bar.go",
-      "DefStart": 43,
-      "DefEnd": 53,
-      "Exported": true,
-      "TypeExpr": "github.com/sgtest/go-sample-0/mypkg.Qux"
-    },
-    {
-      "Repo": "github.com/sgtest/go-sample-0",
-      "UnitType": "GoPackage",
-      "Unit": "mypkg",
-      "Path": "main",
-      "SpecificPath": "main",
-      "Kind": "func",
-      "SpecificKind": "func",
-      "Name": "main",
-      "Callable": true,
-      "File": "mypkg/bar.go",
-      "DefStart": 55,
-      "DefEnd": 77,
-      "Exported": false,
-      "TypeExpr": "func()"
-    },
-    {
-      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg",
       "Path": "Foo",
@@ -64,7 +30,36 @@
       "TypeExpr": "func()"
     },
     {
-      "Repo": "github.com/sgtest/go-sample-0",
+      "UnitType": "GoPackage",
+      "Unit": "mypkg",
+      "Path": "Qux",
+      "SpecificPath": "Qux",
+      "Kind": "type",
+      "SpecificKind": "type",
+      "Name": "Qux",
+      "Callable": false,
+      "File": "mypkg/bar.go",
+      "DefStart": 43,
+      "DefEnd": 53,
+      "Exported": true,
+      "TypeExpr": "github.com/sgtest/go-sample-0/mypkg.Qux"
+    },
+    {
+      "UnitType": "GoPackage",
+      "Unit": "mypkg",
+      "Path": "main",
+      "SpecificPath": "main",
+      "Kind": "func",
+      "SpecificKind": "func",
+      "Name": "main",
+      "Callable": true,
+      "File": "mypkg/bar.go",
+      "DefStart": 55,
+      "DefEnd": 77,
+      "Exported": false,
+      "TypeExpr": "func()"
+    },
+    {
       "UnitType": "GoPackage",
       "Unit": "mypkg",
       "Path": "numcolors",
@@ -82,29 +77,18 @@
   ],
   "Refs": [
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
+      "SymbolRepo": "",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg",
-      "SymbolPath": "Qux",
-      "Def": true,
+      "SymbolPath": "Foo",
+      "Def": false,
       "Repo": "",
       "File": "mypkg/bar.go",
-      "Start": 43,
-      "End": 46
+      "Start": 70,
+      "End": 73
     },
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "main",
-      "Def": true,
-      "Repo": "",
-      "File": "mypkg/bar.go",
-      "Start": 60,
-      "End": 64
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
+      "SymbolRepo": "",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg",
       "SymbolPath": "Foo",
@@ -115,7 +99,62 @@
       "End": 23
     },
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "",
+      "Def": false,
+      "Repo": "",
+      "File": "mypkg/bar.go",
+      "Start": 8,
+      "End": 13
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "",
+      "Def": false,
+      "Repo": "",
+      "File": "mypkg/foo.go",
+      "Start": 8,
+      "End": 13
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "Qux",
+      "Def": true,
+      "Repo": "",
+      "File": "mypkg/bar.go",
+      "Start": 43,
+      "End": 46
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "Qux",
+      "Def": false,
+      "Repo": "",
+      "File": "mypkg/foo.go",
+      "Start": 44,
+      "End": 47
+    },
+    {
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "main",
+      "Def": true,
+      "Repo": "",
+      "File": "mypkg/bar.go",
+      "Start": 60,
+      "End": 64
+    },
+    {
+      "SymbolRepo": "",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg",
       "SymbolPath": "numcolors",
@@ -135,55 +174,10 @@
       "File": "mypkg/bar.go",
       "Start": 47,
       "End": 53
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "Qux",
-      "Def": false,
-      "Repo": "",
-      "File": "mypkg/foo.go",
-      "Start": 44,
-      "End": 47
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "Foo",
-      "Def": false,
-      "Repo": "",
-      "File": "mypkg/bar.go",
-      "Start": 70,
-      "End": 73
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "",
-      "Def": false,
-      "Repo": "",
-      "File": "mypkg/bar.go",
-      "Start": 8,
-      "End": 13
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "",
-      "Def": false,
-      "Repo": "",
-      "File": "mypkg/foo.go",
-      "Start": 8,
-      "End": 13
     }
   ],
   "Docs": [
     {
-      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg",
       "Path": "Qux",
@@ -194,7 +188,6 @@
       "End": 0
     },
     {
-      "Repo": "github.com/sgtest/go-sample-0",
       "UnitType": "GoPackage",
       "Unit": "mypkg",
       "Path": "Qux",

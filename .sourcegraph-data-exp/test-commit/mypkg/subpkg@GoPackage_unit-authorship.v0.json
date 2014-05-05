@@ -23,18 +23,6 @@
   },
   "Refs": [
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "File": "mypkg/subpkg/subfoo.go",
-      "Start": 74,
-      "End": 79,
-      "AuthorEmail": "beyang.liu@gmail.com",
-      "LastCommitDate": "2014-04-18T00:43:13Z",
-      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg",
       "File": "mypkg/subpkg/subfoo.go",
@@ -45,7 +33,6 @@
       "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
     },
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg",
       "File": "mypkg/subpkg/subfoo.go",
@@ -56,7 +43,48 @@
       "LastCommitID": "465567ba60911f6985ddc7bb543775b25d3e7cec"
     },
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 74,
+      "End": 79,
+      "AuthorEmail": "beyang.liu@gmail.com",
+      "LastCommitDate": "2014-04-18T00:43:13Z",
+      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
+    },
+    {
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "Foo",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 109,
+      "End": 112,
+      "AuthorEmail": "beyang.liu@gmail.com",
+      "LastCommitDate": "2014-04-18T00:43:13Z",
+      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
+    },
+    {
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "SymbolPath": "Qux",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 80,
+      "End": 83,
+      "AuthorEmail": "beyang.liu@gmail.com",
+      "LastCommitDate": "2014-04-18T00:43:13Z",
+      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
+    },
+    {
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg/subpkg",
+      "File": "mypkg/subpkg/subfoo.go",
+      "Start": 8,
+      "End": 14,
+      "AuthorEmail": "beyang.liu@gmail.com",
+      "LastCommitDate": "2014-04-18T00:43:13Z",
+      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
+    },
+    {
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg/subpkg",
       "SymbolPath": "Subqux",
@@ -69,7 +97,6 @@
       "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
     },
     {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg/subpkg",
       "SymbolPath": "subfunc",
@@ -77,41 +104,6 @@
       "File": "mypkg/subpkg/subfoo.go",
       "Start": 90,
       "End": 97,
-      "AuthorEmail": "beyang.liu@gmail.com",
-      "LastCommitDate": "2014-04-18T00:43:13Z",
-      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "Qux",
-      "File": "mypkg/subpkg/subfoo.go",
-      "Start": 80,
-      "End": 83,
-      "AuthorEmail": "beyang.liu@gmail.com",
-      "LastCommitDate": "2014-04-18T00:43:13Z",
-      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "SymbolPath": "Foo",
-      "File": "mypkg/subpkg/subfoo.go",
-      "Start": 109,
-      "End": 112,
-      "AuthorEmail": "beyang.liu@gmail.com",
-      "LastCommitDate": "2014-04-18T00:43:13Z",
-      "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
-    },
-    {
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg/subpkg",
-      "File": "mypkg/subpkg/subfoo.go",
-      "Start": 8,
-      "End": 14,
       "AuthorEmail": "beyang.liu@gmail.com",
       "LastCommitDate": "2014-04-18T00:43:13Z",
       "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc"
@@ -131,21 +123,21 @@
   "ClientsOfOtherUnits": [
     {
       "AuthorEmail": "beyang.liu@gmail.com",
-      "LastCommitDate": "2014-04-18T03:37:10Z",
-      "LastCommitID": "465567ba60911f6985ddc7bb543775b25d3e7cec",
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
-      "SymbolUnitType": "GoPackage",
-      "SymbolUnit": "mypkg",
-      "RefCount": 5
-    },
-    {
-      "AuthorEmail": "beyang.liu@gmail.com",
       "LastCommitDate": "2014-04-18T00:43:13Z",
       "LastCommitID": "cb571fc8ade41e1d30f50708f7c18c44da5612cc",
-      "SymbolRepo": "github.com/sgtest/go-sample-0",
+      "SymbolRepo": "",
       "SymbolUnitType": "GoPackage",
       "SymbolUnit": "mypkg/subpkg",
       "RefCount": 3
+    },
+    {
+      "AuthorEmail": "beyang.liu@gmail.com",
+      "LastCommitDate": "2014-04-18T03:37:10Z",
+      "LastCommitID": "465567ba60911f6985ddc7bb543775b25d3e7cec",
+      "SymbolRepo": "",
+      "SymbolUnitType": "GoPackage",
+      "SymbolUnit": "mypkg",
+      "RefCount": 5
     }
   ]
 }
