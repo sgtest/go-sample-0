@@ -7,4 +7,5 @@ func main() {
 	Foo()
 	Foo()
 	Foo()
+	fmt.Println("a")
 }
